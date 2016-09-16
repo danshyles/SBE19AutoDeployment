@@ -26,7 +26,7 @@ SoftwareSerial telemetry(2,3); //RX,TX
 volatile int f_wdt=1;
 
 //Deployment Parameters (User Input)
-const int maxSamples = 20; //How many samples per deployment?
+const int maxSamples = 5; //How many samples per deployment?
 const int deployWaitInterval = 600000; //time to wait between deployments in ms.
 
 long strtol (const char *__nptr, char **__endptr, int __base);
